@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/****** CONFIGURAÇÃO ******/
+/* line 6, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/main.scss */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 1.5; }
+
+/* line 13, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/main.scss */
+a {
+  text-decoration: none; }
+
+/* line 17, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/main.scss */
+img {
+  width: 100%;
+  display: block; }
+
+/* line 22, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/main.scss */
+ul, li {
+  list-style: none; }
+
+/****** MIXINS ******/
+/****** PÁGINA ******/
+/* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/_header.scss */
+.header {
+  background-color: coral; }
+  /* line 4, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/_header.scss */
+  .header .aside {
+    width: 16.8rem;
+    background-color: coral;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    height: 100%; }
+  /* line 14, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/_header.scss */
+  .header .logo {
+    width: 200px;
+    margin: 0 auto; }
+
+/* line 3, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/_inicio.scss */
+.main .inicio {
+  position: fixed;
+  left: 16.8rem;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  background-color: black;
+  opacity: 1;
+  z-index: 0; }
+
+/* line 14, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/_inicio.scss */
+.main .produto__titulo__principal {
+  font-size: 3rem;
+  color: #fff; }
+
+/*# sourceMappingURL=main.css.map */

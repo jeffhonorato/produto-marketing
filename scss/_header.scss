@@ -1,0 +1,19 @@
+.header {
+    background-color: coral;
+
+    .aside {
+        width: 16.8rem;
+        background-color: coral;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 10;
+        height: 100%;
+    }
+
+    .logo {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+}
