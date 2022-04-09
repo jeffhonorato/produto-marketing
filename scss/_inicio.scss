@@ -11,8 +11,13 @@
             z-index: 0;
         }
 
-        .produto__titulo__principal {
+        .prod__titulo__principal {
             font-size: 3rem;
+            color: #fff;
+            font-family: $fonte-titulo;
+        }
+
+        .prod__desc {
             color: #fff;
         }
 

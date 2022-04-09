@@ -51,8 +51,13 @@ ul, li {
   z-index: 0; }
 
 /* line 14, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/_inicio.scss */
-.main .produto__titulo__principal {
+.main .prod__titulo__principal {
   font-size: 3rem;
+  color: #fff;
+  font-family: "Russo One", sans-serif; }
+
+/* line 20, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/_inicio.scss */
+.main .prod__desc {
   color: #fff; }
 
 /*# sourceMappingURL=main.css.map */
