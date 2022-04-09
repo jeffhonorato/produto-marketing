@@ -25,7 +25,7 @@ ul, li {
 /* line 4, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/_header.scss */
 .header .aside {
   width: 16.8rem;
-  background-color: #9F3E26;
+  background-color: #C43C46;
   position: fixed;
   left: 0;
   top: 0;
@@ -76,9 +76,31 @@ ul, li {
   font-family: "Russo One", sans-serif; }
 
 /* line 20, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/_inicio.scss */
+.main .prod__box {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center; }
+
+/* line 27, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/_inicio.scss */
+.main .prod__nome {
+  color: #fff;
+  font-family: "Russo One", sans-serif;
+  font-size: 1.5rem; }
+
+/* line 33, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/_inicio.scss */
 .main .prod__desc {
   color: #fff;
   font-family: "Gruppo", cursive;
   font-size: 1.3rem; }
+
+/* line 39, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/_inicio.scss */
+.main .prod__link {
+  font-family: "Russo One", sans-serif;
+  color: #fff; }
+
+/* line 44, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/_inicio.scss */
+.main .img__prod {
+  width: 700px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -17,11 +17,35 @@
             font-family: $fonte-titulo;
         }
 
+        .prod__box {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .prod__nome {
+            color: #fff;
+            font-family: $fonte-titulo;
+            font-size: 1.5rem;
+        }
+
         .prod__desc {
             color: #fff;
             font-family: $fonte-corpo;
             font-size: 1.3rem;
         }
+
+        .prod__link {
+            font-family: $fonte-titulo;
+            color: #fff;
+        }
+
+        .img__prod {
+            width: 700px;
+        }
+
+
 
 
 }
