@@ -60,18 +60,30 @@
         }
 
         .prod__nome {
-            color: #000;
             font-family: $fonte-titulo;
-            font-size: 1.5rem;
+        }
+
+        .prod__nome-1 {
+            color: $cor-titulo;
+            font-size: 2rem;
+        }
+
+        .prod__nome-2 {
+            color: $cor-titulo;
+            font-size: 2rem;
         }
 
         .prod__desc {
-            color: #000;
             font-family: $fonte-corpo;
             font-size: 1.3rem;
             margin-bottom: 3rem;
-            width: 300px;
+            width: 340px;
+            font-weight: bold;
             // background-color: teal
+        }
+
+        .prod__desc-1 {
+            color: #fff;
         }
 
         .prod__link {
@@ -88,7 +100,7 @@
             width: 600px;
         }
 
-        .item-2, .item-3 {
+        .item-2, .item-3, .item-4 {
             width: 400px;
         }
 
