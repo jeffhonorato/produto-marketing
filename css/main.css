@@ -1,26 +1,26 @@
 @charset "UTF-8";
 /****** CONFIGURAÇÃO ******/
-/* line 8, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/main.scss */
+/* line 9, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/main.scss */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   line-height: 1.5; }
 
-/* line 15, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/main.scss */
+/* line 16, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/main.scss */
 html {
   scroll-behavior: smooth; }
 
-/* line 19, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/main.scss */
+/* line 20, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/main.scss */
 a {
   text-decoration: none; }
 
-/* line 23, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/main.scss */
+/* line 24, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/main.scss */
 img {
   width: 100%;
   display: block; }
 
-/* line 28, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/main.scss */
+/* line 29, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/main.scss */
 ul, li {
   list-style: none; }
 
@@ -132,16 +132,20 @@ ul, li {
     color: #B0CF45;
     font-size: 2rem; }
   /* line 76, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/_inicio.scss */
+  .main .prod__nome-3 {
+    color: #C43C46;
+    font-size: 2rem; }
+  /* line 81, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/_inicio.scss */
   .main .prod__desc {
     font-family: "Gruppo", cursive;
     font-size: 1.3rem;
     margin-bottom: 3rem;
     width: 340px;
     font-weight: bold; }
-  /* line 85, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/_inicio.scss */
-  .main .prod__desc-1 {
+  /* line 90, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/_inicio.scss */
+  .main .prod__desc-1, .main .prod__desc-2 {
     color: #fff; }
-  /* line 89, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/_inicio.scss */
+  /* line 94, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/_inicio.scss */
   .main .prod__link {
     font-family: "Russo One", sans-serif;
     font-size: 1.3rem;
@@ -151,14 +155,14 @@ ul, li {
     border-radius: 6px;
     border: solid 1px #000;
     box-shadow: 0px 2px 10px #fff; }
-    /* line 93, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/_inicio.scss */
+    /* line 98, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/_inicio.scss */
     .main .prod__link:hover {
       background-color: #fff;
       transition: all .6s; }
-  /* line 99, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/_inicio.scss */
+  /* line 104, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/_inicio.scss */
   .main .img__prod {
-    width: 600px; }
-  /* line 103, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/_inicio.scss */
+    width: 550px; }
+  /* line 108, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/produto-marketing/scss/_inicio.scss */
   .main .item-2, .main .item-3, .main .item-4 {
     width: 400px; }
 

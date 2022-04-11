@@ -73,6 +73,11 @@
             font-size: 2rem;
         }
 
+        .prod__nome-3 {
+            color: $cor-titulo2;
+            font-size: 2rem;
+        }
+
         .prod__desc {
             font-family: $fonte-corpo;
             font-size: 1.3rem;
@@ -82,7 +87,7 @@
             // background-color: teal
         }
 
-        .prod__desc-1 {
+        .prod__desc-1, .prod__desc-2 {
             color: #fff;
         }
 
@@ -97,7 +102,7 @@
         }
 
         .img__prod {
-            width: 600px;
+            width: 550px;
         }
 
         .item-2, .item-3, .item-4 {
