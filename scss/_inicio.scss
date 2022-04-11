@@ -17,8 +17,10 @@
         .prod__titulo__principal {
             font-size: 3rem;
             font-family: $fonte-titulo;
-            color: #000;
+            color: $cor-titulo;
+            background-color: #000;
             text-align: center;
+            padding: 1rem;
         }
 
         .prod__box {
@@ -28,13 +30,33 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #000;
+        }
+
+        .produto-1 {
+            background-image: url("../img/background-1.jpg");
+            background-size: cover;
             background-attachment: fixed;
         }
 
         .produto-2 {
-            background-color: darkgray;
+            background-image: url("../img/background-2.jpg");
+            background-size: cover;
             background-attachment: fixed;
+            background-position: center;
+        }
+
+        .produto-3 {
+            background-image: url("../img/background-3.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        .produto-4 {
+            background-image: url("../img/background-4.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
         }
 
         .prod__nome {
@@ -64,6 +86,10 @@
 
         .img__prod {
             width: 600px;
+        }
+
+        .item-2, .item-3 {
+            width: 400px;
         }
 
         /****** SWIPER SLIDER ******/
