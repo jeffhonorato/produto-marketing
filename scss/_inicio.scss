@@ -78,6 +78,11 @@
             font-size: 2rem;
         }
 
+        .prod__nome-4 {
+            color: #fff;
+            font-size: 2rem;
+        }
+
         .prod__desc {
             font-family: $fonte-corpo;
             font-size: 1.3rem;
@@ -89,6 +94,10 @@
 
         .prod__desc-1, .prod__desc-2 {
             color: #fff;
+        }
+
+        .prod__desc-4 {
+            color: $cor-titulo;
         }
 
         .prod__link {

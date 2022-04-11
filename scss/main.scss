@@ -43,6 +43,15 @@ ul, li {
     border: solid 1px #000;
 }
 
+/****** RESPONSIVIDADE ******/
+@mixin celular {
+    @media(max-width: 420px) {
+        @content;
+    }
+}
+
+
+
 /****** PÁGINA ******/
 @import "header.scss";
 @import "inicio.scss";
