@@ -1,6 +1,7 @@
 /****** CONFIGURAÇÃO ******/
 $fonte-titulo: 'Russo One', sans-serif;
 $fonte-corpo: 'Gruppo', cursive;
+$cor-titulo: #B0CF45;
 
 
 
@@ -27,7 +28,15 @@ ul, li {
 
 
 /****** MIXINS ******/
-
+@mixin btn-config {
+    font-family: $fonte-titulo;
+    font-size: 1.3rem;
+    color: #000;
+    background-color: $cor-titulo;
+    padding: .4rem .8rem;
+    border-radius: 6px;
+    border: solid 1px #000;
+}
 
 /****** PÁGINA ******/
 @import "header.scss";
