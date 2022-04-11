@@ -23,12 +23,17 @@
     .nav__box {
         display: flex;
         flex-direction: column;
-        gap: .8rem;
+        gap: 1rem;
         align-items: center;
     }
 
     .nav__link {
         @include btn-config;
+
+            &:hover {
+                background-color: #fff;
+                transition: all .6s;
+            }
     }
 
 }
